@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const nav =    document.querySelector("header nav");
     const iframe = window.parent.document.getElementById("header");
 
-    const navSlide = () => {
-        alert(33);
+    const navSlide = () => {        
         iframe.classList.add("slide");
     }
 

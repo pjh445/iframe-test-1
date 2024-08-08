@@ -7,21 +7,31 @@ body#top {overflow: hidden;}
 a {
     text-decoration: none; color:black;
 }
-
 header {
-    padding:20px; padding-bottom:60px; position:relative;text-align: right; background: white;
+    padding:20px; padding-bottom:50px; position:relative;text-align: right; background: white;   
 }
+
 header button.material-symbols-outlined {
     background: none; font-size:2rem; margin-bottom:20px; border:none;
 }
 header nav {
     background-color:rgba(0,0,0, 0.85); height:100vh; 
-    position: absolute;  left:0; width:100%; overflow:hidden; transition:all 0.7s;
+    position: absolute;  left:0;  width:100%; /* overflow:hidden; */ transition:all 0.7s;
 }
 
-header:hover  nav.slide {height:100vh; padding:50px;}
+/* header:hover  nav.slide {height:100vh; padding:50px;} */
 
 header nav a {
     display:block; color:white; font-size:1.5rem; font-weight:bold;
     text-align: center; margin:30px;
+}
+
+/*********************/
+
+footer {
+    background: black; padding:30px; text-align: center;
+    position:fixed; left:0; bottom:0; width:100%;
+}
+footer nav a {
+    color:white; padding:5px; margin:5px;
 }

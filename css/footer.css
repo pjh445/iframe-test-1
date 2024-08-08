@@ -8,8 +8,7 @@ a {
 
 
 footer {
-    background: black; padding:30px; text-align: center;
-    position:fixed; left:0; bottom:0; width:100%;
+    background: black; padding:30px; text-align: center;    
 }
 footer nav a {
     color:white; padding:5px; margin:5px;

@@ -2,10 +2,12 @@
 
 * {margin:0; padding:0; box-sizing: border-box;}
 
+::-webkit-scrollbar {width:0;}
+
 #layout {
-    max-width:600px; margin:auto; border:3px solid black;
-    overflow: hidden; position:relative;
+    max-width:600px; margin:auto; overflow-x: hidden; position:relative   
 }
+
 a {
     text-decoration: none; color:black;
 }

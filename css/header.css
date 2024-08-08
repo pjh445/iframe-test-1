@@ -9,7 +9,7 @@ a {
 }
 
 header {
-    padding:20px; position:relative;text-align: right; background: white;
+    padding:20px; padding-bottom:50px; position:relative;text-align: right; background: white;
 }
 header button.material-symbols-outlined {
     background: none; font-size:2rem; margin-bottom:20px; border:none;

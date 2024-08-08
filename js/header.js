@@ -5,14 +5,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const nav =    document.querySelector("header nav");
     const iframe = window.parent.document.getElementById("header");
 
-    const navSlide = () => {       
-        iframe.classList.add("slide");
-        navBtn.textContent = "close";
+    let i = 0;
+    const navSlide = () => {
+        if(i == 0) {
+            iframe.classList.add("slide");
+            navBtn.textContent = "close";
+            i++;
+        } else      navHide();            
     }
 
     const navHide = () => {
         iframe.classList.remove("slide");
         navBtn.textContent = "menu";
+        i = 0;
     }
 
     navBtn.addEventListener("click" , navSlide );

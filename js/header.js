@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const iframe = window.parent.document.getElementById("header");
 
     const navSlide = () => {
+        alert(33);
         iframe.classList.add("slide");
-
     }
 
     navBtn.addEventListener("click" , navSlide );

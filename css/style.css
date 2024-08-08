@@ -13,7 +13,7 @@ a {
 /*********************/
 
 iframe#header {width:100%; height:100px; position: absolute;}
-
+iframe#header.slide {height:100vh; padding:50px;}
 
 
 /*********************/

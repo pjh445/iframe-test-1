@@ -8,11 +8,12 @@ a {
     text-decoration: none; color:black;
 }
 header {
-    padding:20px; padding-bottom:50px; position:relative;text-align: right; background: white;   
+    padding-bottom:50px; position:relative;/* text-align: right; */ background: white;    
 }
-
-header button.material-symbols-outlined {
-    background: none; font-size:2rem; margin-bottom:20px; border:none;
+header>div {display:flex; }
+#outer {flex:1; padding:20px; }
+header>div> button.material-symbols-outlined {
+    background: none; font-size:2rem; margin-bottom:20px; border:none; padding:20px;
 }
 header nav {
     background-color:rgba(0,0,0, 0.85); height:100vh; 

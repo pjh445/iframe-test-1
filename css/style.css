@@ -12,7 +12,7 @@ a {
 
 /*********************/
 
-iframe#header {width:100vw; height:100px; position: relative; top:0; left:0;}
+iframe#header {width:100vw; height:100px; position: relative; top:0; left:0; z-index:1;}
 iframe#header.slide {height:100vh; /* padding:50px; */}
 
 
